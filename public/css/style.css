@@ -1,0 +1,200 @@
+
+
+
+/* NAVBAR */
+ul {
+  list-style: none;
+  background: #1F313B;
+}
+
+ul li {
+  display: inline-block;
+  position: relative;
+  margin-right: 10px; 
+}
+
+
+ul li a {
+  display: block;
+  padding: 20px 25px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+}
+
+ul li a:hover {
+  color: #FFBA00;
+}
+
+ul li input {
+  border-radius: 5px;
+  border: 0;
+}
+
+ul li a img {
+  width: 60%; 
+  max-width: 100px; 
+  height: auto; 
+  border-radius: 5px;
+}
+
+/* HOME */
+
+.home {
+    background-image: url('https://i.pinimg.com/564x/2b/e6/31/2be631e3afc5ba303f6315ba8d4c41f3.jpg'); 
+    color: #fff; 
+    text-align: center; 
+    padding: 70px;
+    margin-top: 40px;
+  }
+  
+
+  .title{
+    font-size: 34px; 
+    font-weight: 600;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+  }
+  
+  .paragraf {
+    font-size: 16px; 
+    padding: 15px;
+
+  }
+  
+  .button {
+    background-color:white; 
+    color: #E16A3D; 
+    font-weight: bold;
+    padding: 12px 20px; 
+    border: none; 
+    cursor: pointer; 
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 14px;
+  }
+  
+  .button:hover {
+    background-color: black; 
+    color: white; 
+  }
+
+ /* Features */
+
+ #line{
+  border: 2px solid #E16A3D;
+  height: 200px;
+  margin-left: 20%;
+ }
+
+ .ML{
+  background: #1F313B;
+  color: #fff;
+  display: flex;
+  width: 100%;
+  margin-top: 5px;
+ }
+
+ .feature{
+  padding: 70px;
+  display: flex;
+  width: 100%;
+   
+}
+
+.reight{
+  margin-left: 6%;
+  margin-top: 2%;
+  
+}
+
+
+.parag1 img{
+  max-width: 70px;
+  float: left;
+  border-radius: 10px;
+  margin-right: 15px;
+  
+  }
+
+
+.parag2{
+  margin-top: 50px;
+}
+
+.parag2 img{  
+  max-width: 70px;
+  float: left;
+  border-radius: 10px;
+  margin-right: 15px;
+  
+}
+
+ /* Features 2 */
+
+ .ML2{
+
+  background: #1F313B;
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  padding: 3%;
+
+ }
+
+ .image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+ }
+
+ .image img{
+   width: 250px;
+   height: auto;
+   border: 2px solid #0a0a0a36;
+   border-radius: 13px;
+   box-shadow: 4px 7px 7px 0px #0e0d0d36;
+   cursor: pointer;
+   margin: 30px;
+   transition: 400px;
+ }
+
+ .image img:hover {
+  filter: grayscale(1);
+  transform: scale(1.03);
+ }
+
+  /* Adventage*/
+
+
+  .advantage{
+    width: 100%;
+    background: #1F313B;
+    margin-top: 10px;
+    padding: 10px;
+    color: #fff;
+  }
+
+  .advantageText{
+    display: contents;
+
+  }
+
+  .titree{
+    display: contents;
+    margin-bottom: 100px;
+   
+  }
+
+  .advantage img{
+    width: 500px;
+    height: 500px;
+    margin-left: 60%;
+  }
+  
+
+
+
+   
+
